@@ -8,7 +8,7 @@ export function MainStack({ stack }: StackContext) {
       allowOrigins: ["*"],
     },
     routes: {
-      "GET /api/suscription": "packages/functions/src/suscription.handler",
+      "GET /api/subscription": "packages/functions/src/subscription.handler",
       "GET /api/testimonial": "packages/functions/src/testimonial.handler",
       "POST /api/send-email": "packages/functions/src/send-email.handler",
     },
